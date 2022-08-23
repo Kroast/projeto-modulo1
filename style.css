@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, black, gray);
+}
+.cabecalho {
+    text-align: center;
+    background-color: black;
+}
+@media (max-width: 375px){
+    .cabecalho img {
+        width: 300px;
+    }
+}
+nav {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right, gray, black);
+    position: sticky;
+}
+@media (max-width: 375px) {
+    nav {
+        width: 373px;
+    }
+}
+@media (max-width: 375px) {
+    .dropdown-menu li a {
+        font: normal .7em arial;
+        
+    }
+}
+.leon {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+@media (max-width: 500px){
+    .leon-gif {
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .leon img {
+        width: 110px;
+    }
+}
+.leon-bio {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    font: normal 15pt arial;
+}
+@media (max-width: 375px){
+.leon-bio {
+    font: normal .8em arial;
+}
+}
+@media (max-width: 500px){
+    .claire-gif {
+        display: none;
+    }
+}
+.claire {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.claire-bio {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    font: normal 15pt arial;
+}
+@media (max-width: 375px){
+    .claire-bio {
+        font: normal .8em arial;
+    
+    }
+}
+@media (max-width: 375px){
+    .claire img {
+        width: 110px;
+    }
+}
